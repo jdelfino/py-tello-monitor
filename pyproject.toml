@@ -26,3 +26,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/jdelfino/py-tello-monitor"
 "Bug Tracker" = "https://github.com/jdelfino/py-tello-monitor/issues"
+
+[tool.hatch.metadata]
+allow-direct-references = true
