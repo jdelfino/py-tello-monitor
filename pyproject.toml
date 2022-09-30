@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-tello-monitor"
+version = "0.0.1"
+authors = [
+  { name="Joe Delfino", email="jdelfino@gmail.com" },
+]
+description = "A data collection utility for Tello drones"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+djitellopy>=2.4.0
+numpy>=1.23.3
+opencv_python>=4.6.0.66    
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jdelfino/py-tello-monitor"
+"Bug Tracker" = "https://github.com/jdelfino/py-tello-monitor/issues"
