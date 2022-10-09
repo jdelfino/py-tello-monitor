@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "py-tello-monitor"
+name = "tellomonitor"
 version = "0.0.1"
 authors = [
   { name="Joe Delfino", email="jdelfino@gmail.com" },
@@ -17,8 +17,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    'djitellopy @ git+https://github.com/damiafuentes/DJITelloPy.git@54736e6ad47c02ebb72504f4e0da8224100d60a7',
-    #djitellopy>=2.4.0
+    #'djitellopy @ git+https://github.com/damiafuentes/DJITelloPy.git@54736e6ad47c02ebb72504f4e0da8224100d60a7',
+    'djitellopy>=2.4.0',
     'numpy>=1.23.3',
     'opencv_python>=4.6.0.66'
 ]
